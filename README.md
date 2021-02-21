@@ -17,7 +17,7 @@ information needed for example to display the name of the server on node-maps.
 
 ## Setup
 
-    git clone https://github.com/ffnord/mesh-announce /opt/mesh-announce
+    git https://github.com/FreifunkMD/mesh-announce /opt/mesh-announce
     cp /opt/mesh-announce/respondd.service /etc/systemd/system/
     # adapt the line ExecStart in /etc/systemd/system/respondd.service (see "commandline options")
     systemctl daemon-reload
